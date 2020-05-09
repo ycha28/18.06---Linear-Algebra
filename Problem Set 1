@@ -1,0 +1,17 @@
+1.2
+23.
+cosB = w1 / ||w||
+sinB = w2 / ||w||
+
+cos(theta) = cos(B - a) = cosB cosa + sinB sina
+           = (w1 / ||w||) (v1 / ||v|| ) + (w2 / ||w||) (v2 / ||v||)
+           = (v1w1 + v2w2) / (||v|| ||w||)
+           = (v . w) / (||v|| ||w||)
+           
+28.
+v = (1, 2)
+w = (x, y)
+
+v . w = x + 2y = 5
+w can equal (1, 2), (3, 1), (5, 0), (7, -1), (9, -2)
+These values are all colinear. The shortest w is (1, 2), which has a distance of sqrt 5 from the origin.
