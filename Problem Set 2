@@ -35,3 +35,35 @@ E1E2E3 =
  a 1 0 0
  b d 1 0
  c e f 1]
+
+Section 2.6
+13.
+L = [1 0 0 0
+     1 1 0 0
+     1 1 1 0
+     1 1 1 1]
+
+U = [a a   a   a
+     0 b-a b-a b-a
+     0 0.  c-b c-b
+     0 0.  0   d-c]
+     
+18.
+LDU = L1D1U1
+LDU * U^-1 = L1D1U1 * U^-1
+LD * L1^-1 = L1 * L1^-1 * D1U1U^-1
+L^-1LD = D1U1U^-1
+Left side is lower triangular, right side is upper triangular, so both sides are diagonal.
+
+D = D1 because all the other matrices have 1s in their diagonals. 
+
+25.
+L^-1 (i, j) = j/i.
+
+26.
+[6 5 4 3 2 1
+ 5 10 8 6 4 2
+ 4 8 12 9 6 3
+ 3 6 9 12 8 4
+ 2 4 6 8 10 5
+ 1 2 3 4 5 6]
