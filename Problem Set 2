@@ -67,3 +67,44 @@ L^-1 (i, j) = j/i.
  3 6 9 12 8 4
  2 4 6 8 10 5
  1 2 3 4 5 6]
+
+Section 2.7
+13.
+a. [0 1 0
+    0 0 1
+    1 0 0]
+    
+b. [0 1 0 0
+    0 0 1 0
+    1 0 0 0
+    0 0 0 1]
+    
+36.
+B^T is northwest. B^2 is not, as it's a full matrix. B^-1 is southeast. A southeast * northwest matrix results in 
+a northeast matrix.
+
+Section 3.1
+18.
+a) True
+b) True
+c) False, two unsymmetric matrices can be summed to produce a symmetric matrix
+
+23.
+The column space gets larger unless b is dependent on one of the columns in A. 
+If b = [3, 8], then it makes the column space of the matrix [1, 2; 2, 5] larger, since b is not dependent on [1,2] or [2,5].
+If b = [3, 7], then it does not make the column space of the matrix [1, 2; 2,5] larger, since b is the sum of [1,2] and [2,5].
+Ax = b is solvable when the column space doesn't get larger because b will simply be the result of some linear combination in the
+pre-existing column space. A and [A b] have the same column space.
+
+30.
+a) s + t fulfill all the requirements of a vector space.
+1) s + t = t + s
+2) s + (t + I) = (s + t) + I
+3) s + t + 0 = s + t
+4) s + t + (-s - t) = 0
+5) 1 * (s + t) = s + t
+6-8) c(s + t) = cs + ct
+
+b)
+If S and U are lines, then S U T is not a valid subspace because it is just the two lines. However,
+S + T is the entire plane that S U T spans.
